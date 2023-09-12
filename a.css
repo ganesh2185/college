@@ -1,0 +1,159 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* About section styles */
+.about {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Courses section styles */
+.courses {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.courses ul {
+    list-style-type: none;
+}
+
+.courses ul li {
+    margin-bottom: 10px;
+}
+
+.courses ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Admissions and Contact section styles */
+.admissions,
+.contact {
+    text-align: center;
+}
+
+.admissions p,
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#c1,#c2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#it,#mech,#bio,#ece{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(244, 244, 244);
+}
+.cimj{
+    width: 500px;
+    height: 300px;
+}
+.btn{
+    width: 500px;
+    height: 50px;
+}  
+#courses{
+    text-align: center;
+}
